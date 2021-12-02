@@ -1,2 +1,2 @@
-# Terrafomm-Project-1
-Terrafrom
+# Terraform-Project-1
+Terraform
