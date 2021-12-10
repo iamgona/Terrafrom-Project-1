@@ -1,1 +1,24 @@
-This is my project
+TERRAFROM - PRIVATE VPN AUTOMATION:
+
+In this demo, i  automate a VPN with private and public 
+subnets and place an AMI instance in the public subnet which has an 
+internet getway to allow outside traffic.
+
+the terrafrom Project consits of 2 stages (Building a VPN network and creating a httpd 
+a web server)
+
+Building the vpn
+
+stage 1: aws-cli permissions
+stage 2: Building a VPC
+stage 3: attaching an iternet gatewat to the vpc
+stage 4: Creating a route table:
+stage 5: Creating subet-groups
+stage 5: Assotiating the subnets to the route table
+
+Building an AMI-instance
+
+stage 1: creting a web-server and placing it a public subnet
+stage 2: attaching a security group that allows (https, http and ssh)
+stage 3: attaching a network interface to the web-server
+stage 4: installing httpd using userdata 
